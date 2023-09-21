@@ -15,6 +15,7 @@
 - [Idea and Approach](#idea-and-approach)
   - [Prediction Model:](#prediction-model)
   - [Response Model:](#response-model)
+  - [Detection Model:](#detection-model)
     - [The AI approach in Predicting Avalanches and Rescue of buried victims](#the-ai-approach-in-predicting-avalanches-and-rescue-of-buried-victims)
     - [ResUNet: Transforming Avalanche Detection](#resunet-transforming-avalanche-detection)
 - [Ground Control and Connect](#ground-control-and-connect)
@@ -105,6 +106,7 @@ We are actively pursuing a comprehensive solution through the development of spe
 Our approach to this endeavor is structured into two distinct yet interconnected phases, each of which will be elaborated upon in the subsequent sections:
 - Prediction Model
 - Response Model
+- Detection Model
 
 
 ## Prediction Model:
@@ -123,12 +125,11 @@ These two phases are integral components of our mission to enhance safety and sa
 
 ![2](https://github.com/geexpro/Ingenuity-SIH-1422/assets/88074810/f90fcb03-1831-41bb-ac84-f7127154fccc)
 
-Your provided text is a valuable addition to the project description. It provides more technical details about the specific neural network architecture, ResUNet, and how it is applied to the context of avalanche detection. Here's a revised and expanded description that incorporates this information:
+## Detection Model:
 
-
+The prediction model will provide its output to the Detection model which will try to find out the locations for the casualties and determing wether it is from human intervention from a natural cause
 
 ### The AI approach in Predicting Avalanches and Rescue of buried victims
-
 
 In our relentless pursuit of improving avalanche victim identification, we've employed the cutting-edge ResUNet neural network model. This sophisticated AI/ML technology is specifically tailored to process and analyze imagery and data pertinent to avalanche situations. By doing so, we aim to significantly enhance our ability to detect avalanches and identify individuals who may be trapped in these life-threatening scenarios.
 

@@ -94,14 +94,23 @@ The location data of these casualties is then transmitted back to our Ground Con
 
 This integrated remote sensing system is a game-changer, dramatically reducing the time needed for search and rescue teams to locate individuals affected by avalanches. Ultimately, it significantly enhances the chances of survival for those in distress, reinforcing our commitment to avalanche safety and response excellence.
 
+<center>
+
+### Survey Grid creation
+
 ![3](https://github.com/geexpro/Ingenuity-SIH-1422/assets/88074810/cd6141ce-c206-4d3c-98dd-bd6f9420060f)
 
 ![4](https://github.com/geexpro/Ingenuity-SIH-1422/assets/88074810/97fae90a-12f8-40c9-a7bf-07340c28601a)
 
+### Camera configuration
+
 ![5](https://github.com/geexpro/Ingenuity-SIH-1422/assets/88074810/9adbbb46-f3cb-42be-808d-efed6ad89a88)
+
+### Generated Waypoints Table
 
 ![6](https://github.com/geexpro/Ingenuity-SIH-1422/assets/88074810/a75d756c-87a9-4006-afd7-4afeb937bbe2)
 
+</center>
 
 ---
 
@@ -154,3 +163,6 @@ This calculation helps us efficiently utilize aircraft payload capacity for aval
 
 
 These technologies and evaluations collectively contribute to our mission of enhancing avalanche detection, response, and victim rescue, reinforcing our commitment to safety and excellence in avalanche management.
+
+# Techstack
+

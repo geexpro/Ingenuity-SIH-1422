@@ -22,7 +22,7 @@ This project aims to make a significant impact on avalanche rescue efforts, savi
 - [Tanishq Trivedi](https://www.github.com/tanishqtrivedi)
 - [Yashwini Singh](https://www.github.com/vini3434)
 - [Ankush Singh](https://www.github.com/ankushkun)
-- [Vidhi Jain](https://www.github.com/404)
+- [Vidhi Jain](https://www.github.com/vidhi)
 
 
 

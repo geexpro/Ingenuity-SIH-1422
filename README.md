@@ -1,6 +1,6 @@
 
 ![Copy of INGENUITY2](https://github.com/geexpro/Ingenuity-SIH-1422/assets/88074810/de5f7993-37da-46a3-8d5c-d10e54297bc7)
-<img src="">
+<img width="100%" src="Images/banner.png">
 
 # Index
 - [Index](#index)

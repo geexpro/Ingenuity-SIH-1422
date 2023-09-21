@@ -168,3 +168,5 @@ These technologies and evaluations collectively contribute to our mission of enh
 
 - Python
 - JavaScript
+- Earth Engine
+- Mission Planner

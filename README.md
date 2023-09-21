@@ -166,3 +166,5 @@ These technologies and evaluations collectively contribute to our mission of enh
 
 # Techstack
 
+- Python
+- JavaScript

@@ -107,6 +107,8 @@ This integrated remote sensing system is a game-changer, dramatically reducing t
 
 Getting the DataSet ready
 ---
+![Screenshot 2023-09-21 083059](https://github.com/geexpro/Ingenuity-SIH-1422/assets/88074810/40c94d52-c720-4dc9-858a-723b840ef19d)
+
 Multispectral imagery plays a pivotal role in geospatial analysis, often harnessed through powerful tools like Google Earth Engine and QGIS. These images capture data across a spectrum of wavelengths, allowing us to observe a wide range of information about our planet's surface. In particular, C band, a segment of the microwave spectrum, is frequently utilized. C band radar data, commonly acquired from satellites, provides valuable insights into various Earth processes, including land cover changes, soil moisture levels, and vegetation health. With the computational capabilities of Google Earth Engine and the geospatial processing capabilities of QGIS, researchers and environmental analysts can harness multispectral imagery, including C band data, to gain deeper insights into Earth's dynamic systems, facilitating informed decision-making and sustainable environmental management.
 
 

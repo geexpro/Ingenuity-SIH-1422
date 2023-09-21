@@ -1,5 +1,6 @@
 
 ![Copy of INGENUITY2](https://github.com/geexpro/Ingenuity-SIH-1422/assets/88074810/de5f7993-37da-46a3-8d5c-d10e54297bc7)
+<img width="1470" alt="Screenshot 2023-09-20 at 2 16 26 PM" src="https://github.com/geexpro/Ingenuity-SIH-1422/assets/88074810/7357112c-4946-47f2-9aec-95fae21bd3fd">
 
 
 # Enhancing Avalanche Victim Identification: Leveraging AI/ML Technologies for Efficient Detection in Harsh Terrain

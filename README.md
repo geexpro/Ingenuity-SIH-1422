@@ -1,6 +1,5 @@
 
-![Logo](https://drive.google.com/file/d/1TWoRwjLCHvRoyAgKJRUzPe5GnSkum1_H/view?usp=sharing)
-
+![Copy of INGENUITY2](https://github.com/geexpro/Ingenuity-SIH-1422/assets/88074810/de5f7993-37da-46a3-8d5c-d10e54297bc7)
 
 
 # Enhancing Avalanche Victim Identification: Leveraging AI/ML Technologies for Efficient Detection in Harsh Terrain
@@ -40,7 +39,8 @@ Prediction Model:
 
 In this phase, we will focus on the development of a robust predictive model. This model will utilize a combination Ahistorical data, meteorological information, and terrain analysis to accurately forecast potential avalanche occurrences. The objective is to provide users with timely and reliable information, empowering them to make informed decisions and avoid areas at risk.
 
-![Prediction](https://drive.google.com/file/d/12-i-C5VNVJqPhatkcXZs5OjDuZ-flM5V/view?usp=drive_link)
+
+![1](https://github.com/geexpro/Ingenuity-SIH-1422/assets/88074810/80da19c0-b2f6-4117-987a-ab2235126324)
 
 
 Response Model: 

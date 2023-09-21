@@ -18,11 +18,11 @@ This project aims to make a significant impact on avalanche rescue efforts, savi
 ## Authors
 
 - [Abhinav Saini](https://www.github.com/iabhinavsaini)
-- [Aditya Berry](https://www.github.com/iabhinavsaini)
-- [Tanishq Trivedi](https://www.github.com/iabhinavsaini)
-- [Yashwini Singh](https://www.github.com/iabhinavsaini)
-- [Ankush Singh](https://www.github.com/iabhinavsaini)
-- [Vidhi Jain](https://www.github.com/iabhinavsaini)
+- [Aditya Berry](https://www.github.com/imortaltatsu)
+- [Tanishq Trivedi](https://www.github.com/tanishqtrivedi)
+- [Yashwini Singh](https://www.github.com/vini3434)
+- [Ankush Singh](https://www.github.com/ankushkun)
+- [Vidhi Jain](https://www.github.com/404)
 
 
 

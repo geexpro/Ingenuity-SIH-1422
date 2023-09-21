@@ -49,7 +49,7 @@ The second phase entails the creation of a responsive system driven by AI and ma
 
 These two phases are integral components of our mission to enhance safety and save lives in avalanche-prone regions. We remain committed to advancing technology and implementing innovative solutions to address the challenges posed by avalanches, ensuring the well-being of those who venture into these hazardous environments.
 
-![Response](https://drive.google.com/file/d/1C-ibd60uduM3l9kFPLXpTGI_05R9BcYV/view?usp=drive_link)
+![2](https://github.com/geexpro/Ingenuity-SIH-1422/assets/88074810/f90fcb03-1831-41bb-ac84-f7127154fccc)
 
 Your provided text is a valuable addition to the project description. It provides more technical details about the specific neural network architecture, ResUNet, and how it is applied to the context of avalanche detection. Here's a revised and expanded description that incorporates this information:
 
@@ -136,5 +136,8 @@ Max Payload = MZFW – OEW (Operational Empty Weight)
 ```
 
 This calculation helps us efficiently utilize aircraft payload capacity for avalanche response missions.
+
+
+
 
 These technologies and evaluations collectively contribute to our mission of enhancing avalanche detection, response, and victim rescue, reinforcing our commitment to safety and excellence in avalanche management.

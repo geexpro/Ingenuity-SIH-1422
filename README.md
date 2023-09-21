@@ -112,6 +112,8 @@ Multispectral imagery plays a pivotal role in geospatial analysis, often harness
 ---
 Into the Avionics Subsystem
 ---
+![0 - uav](https://github.com/geexpro/Ingenuity-SIH-1422/assets/88074810/a00a15c6-1007-48fd-8b84-3d2f430f7256)
+
 
 **Sensor Systems Evaluation for Avalanche Detection**
 

@@ -1,7 +1,9 @@
 
 ![Copy of INGENUITY2](https://github.com/geexpro/Ingenuity-SIH-1422/assets/88074810/de5f7993-37da-46a3-8d5c-d10e54297bc7)
+
 Note: The Machine Learning Models in this repository are under process to be published in a research paper, resources in this repository are shared only for juries to review the solution provided by us for SIH-2023. Copying or using this repository for any kind of use is a punisable offence.
-<img width="100%" src="Images/banner.png">
+
+<img width="100%" src="./Images/banner.png"/>
 
 # Index
 - [Index](#index)

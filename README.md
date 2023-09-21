@@ -1,10 +1,38 @@
 
 ![Copy of INGENUITY2](https://github.com/geexpro/Ingenuity-SIH-1422/assets/88074810/de5f7993-37da-46a3-8d5c-d10e54297bc7)
-<img width="1470" alt="Screenshot 2023-09-20 at 2 16 26 PM" src="https://github.com/geexpro/Ingenuity-SIH-1422/assets/88074810/7357112c-4946-47f2-9aec-95fae21bd3fd">
+<img src="">
 
+# Index
+- [Index](#index)
+- [Enhancing Avalanche Victim Identification: Leveraging AI/ML Technologies for Efficient Detection in Harsh Terrain](#enhancing-avalanche-victim-identification-leveraging-aiml-technologies-for-efficient-detection-in-harsh-terrain)
+- [Summary](#summary)
+  - [Authors](#authors)
+- [Techstack](#techstack)
+- [Prerequisites](#prerequisites)
+- [Installation Procedure](#installation-procedure)
+    - [Install the requirements](#install-the-requirements)
+    - [Clone this repository](#clone-this-repository)
+- [Idea and Approach](#idea-and-approach)
+  - [Prediction Model:](#prediction-model)
+  - [Response Model:](#response-model)
+    - [The AI approach in Predicting Avalanches and Rescue of buried victims](#the-ai-approach-in-predicting-avalanches-and-rescue-of-buried-victims)
+    - [ResUNet: Transforming Avalanche Detection](#resunet-transforming-avalanche-detection)
+- [Ground Control and Connect](#ground-control-and-connect)
+  - [Using GCS (Mission Planner)](#using-gcs-mission-planner)
+    - [Survey Grid creation](#survey-grid-creation)
+    - [Camera configuration](#camera-configuration)
+    - [Generated Waypoints Table](#generated-waypoints-table)
+- [Getting the Dataset ready](#getting-the-dataset-ready)
+- [Into the Avionics Subsystem](#into-the-avionics-subsystem)
+  - [Sensor Systems Evaluation for Avalanche Detection](#sensor-systems-evaluation-for-avalanche-detection)
+  - [Aerial Surveillance for Avalanche Monitoring](#aerial-surveillance-for-avalanche-monitoring)
+  - [Airborne Sensor Technologies](#airborne-sensor-technologies)
+    - [Ground Penetrating Radar (GPR)](#ground-penetrating-radar-gpr)
+    - [Aircraft Payload-Range Performance Evaluation](#aircraft-payload-range-performance-evaluation)
 
 # Enhancing Avalanche Victim Identification: Leveraging AI/ML Technologies for Efficient Detection in Harsh Terrain
 
+# Summary
 
 This innovative project aims to revolutionize avalanche victim identification by harnessing the power of Artificial Intelligence (AI) and Machine Learning (ML) technologies. In the unforgiving and treacherous landscapes of avalanche-prone regions, locating and identifying avalanche victims swiftly is a matter of life and death. Traditional search and rescue operations can be slow and resource-intensive, often hindered by challenging terrain and adverse weather conditions.
 
@@ -24,10 +52,53 @@ This project aims to make a significant impact on avalanche rescue efforts, savi
 - [Ankush Singh](https://www.github.com/ankushkun)
 - [Vidhi Jain](https://www.github.com/vidhi2512002)
 
+# Techstack
 
+![stack](https://skillicons.dev/icons?i=python,javascript,tensorflow,raspberrypi)
+<img width="256px" src="https://upload.wikimedia.org/wikipedia/commons/thumb/1/1f/ArduPilot_logo.svg/2560px-ArduPilot_logo.svg.png"/>
+<br>
+<img height="60px" src="https://upload.wikimedia.org/wikipedia/commons/thumb/d/df/ArcGIS_logo.png/800px-ArcGIS_logo.png" />
+<img height="55px" src="https://opencv.b-cdn.net/wp-content/uploads/2020/07/OpenCV_logo_black-2.png" />
+<img height="55px" src="https://insidehpc.com/wp-content/uploads/2014/09/CUDANNLOGO.png" />
+<img height="55px" src="https://upload.wikimedia.org/wikipedia/commons/thumb/3/31/NumPy_logo_2020.svg/1280px-NumPy_logo_2020.svg.png" />
 
+# Prerequisites
 
-## Idea and Approach
+1. Must have basic knowledge of Python Notebooks
+2. Basic Knowledge of Earth Engine and Javascript
+3. UNIX like environment
+
+# Installation Procedure
+
+### Install the requirements
+
+Download and Install _Mission Planner_ from [Ardupilot](https://ardupilot.org/planner/docs/mission-planner-installation.html) webpage.\
+This is the software we are using to automate the survey by the VTOL
+
+### Clone this repository
+
+```bash
+$ git clone https://github.com/geexpro/Ingenuity-SIH-1422
+$ cd Ingenuity-SIH-1422
+```
+
+Start a jupyter lab instance
+
+```bash
+$ jupyter lab
+```
+
+Install necessasary packages from requirements.txt file
+
+```bash
+$ pip3 install -r ML/requirements.txt
+```
+
+and open the model notebook inside `ML/main.ipynb`
+
+The notebook contains all the necessasary functions for dataset loading, model training, network architecture creation and testing.
+
+# Idea and Approach
 
 We are actively pursuing a comprehensive solution through the development of specialized software aimed at providing users with avalanche prediction details, thereby safeguarding them from venturing into avalanche-prone areas. Subsequently, we plan to leverage cutting-edge AI/ML algorithms to create a sophisticated system that will be deployed on autonomous Vertical Takeoff and Landing (VTOL) platforms. This system will efficiently detect and track individuals buried beneath avalanches, furnishing precise victim information. This invaluable data will enable rescue teams to execute timely and effective operations.
 
@@ -36,7 +107,7 @@ Our approach to this endeavor is structured into two distinct yet interconnected
 - Response Model
 
 
-Prediction Model:
+## Prediction Model:
 
 In this phase, we will focus on the development of a robust predictive model. This model will utilize a combination Ahistorical data, meteorological information, and terrain analysis to accurately forecast potential avalanche occurrences. The objective is to provide users with timely and reliable information, empowering them to make informed decisions and avoid areas at risk.
 
@@ -44,7 +115,7 @@ In this phase, we will focus on the development of a robust predictive model. Th
 ![1](https://github.com/geexpro/Ingenuity-SIH-1422/assets/88074810/80da19c0-b2f6-4117-987a-ab2235126324)
 
 
-Response Model: 
+## Response Model: 
 
 The second phase entails the creation of a responsive system driven by AI and machine learning algorithms. This system will be integrated into autonomous VTOL platforms, enabling them to autonomously locate and track victims buried beneath avalanches. The AI-driven response model will not only pinpoint victims but also deliver comprehensive details about their condition and location. This critical information will be relayed to rescue teams, facilitating rapid and precise rescue operations, thereby minimizing response time and increasing the chances of survival.
 
@@ -55,13 +126,13 @@ These two phases are integral components of our mission to enhance safety and sa
 Your provided text is a valuable addition to the project description. It provides more technical details about the specific neural network architecture, ResUNet, and how it is applied to the context of avalanche detection. Here's a revised and expanded description that incorporates this information:
 
 
----
-The AI approach in Predicting Avalanches and Rescue of buried victims
----
+
+### The AI approach in Predicting Avalanches and Rescue of buried victims
+
 
 In our relentless pursuit of improving avalanche victim identification, we've employed the cutting-edge ResUNet neural network model. This sophisticated AI/ML technology is specifically tailored to process and analyze imagery and data pertinent to avalanche situations. By doing so, we aim to significantly enhance our ability to detect avalanches and identify individuals who may be trapped in these life-threatening scenarios.
 
-**ResUNet: Transforming Avalanche Detection**
+### ResUNet: Transforming Avalanche Detection
 
 ResUNet represents a crucial component of our innovation. It's not just a neural network; it's a powerhouse designed to handle the intricacies of avalanche data. Here's how it elevates our approach:
 
@@ -77,10 +148,10 @@ In the unforgiving terrain where every second counts, our integration of ResUNet
 ![layer](https://github.com/geexpro/Ingenuity-SIH-1422/assets/88074810/e42355ce-8113-4acd-9ecb-70a8b78531e4)
 
 
----
-Ground Control and Connect
----
-**Using GCS (Mission Planner)**
+
+# Ground Control and Connect
+
+## Using GCS (Mission Planner)
 
 In our project, we've developed a customized version of Mission Planner, 
 *an open-source software platform* 
@@ -112,42 +183,40 @@ This integrated remote sensing system is a game-changer, dramatically reducing t
 
 </center>
 
----
 
-Getting the DataSet ready
----
+
+# Getting the Dataset ready
+
 ![Screenshot 2023-09-21 083320](https://github.com/geexpro/Ingenuity-SIH-1422/assets/88074810/c85ccc8f-9185-4570-a284-b1171e3f877e)
 
 ![Screenshot 2023-09-21 083059](https://github.com/geexpro/Ingenuity-SIH-1422/assets/88074810/40c94d52-c720-4dc9-858a-723b840ef19d)
 
 Multispectral imagery plays a pivotal role in geospatial analysis, often harnessed through powerful tools like Google Earth Engine and QGIS. These images capture data across a spectrum of wavelengths, allowing us to observe a wide range of information about our planet's surface. In particular, C band, a segment of the microwave spectrum, is frequently utilized. C band radar data, commonly acquired from satellites, provides valuable insights into various Earth processes, including land cover changes, soil moisture levels, and vegetation health. With the computational capabilities of Google Earth Engine and the geospatial processing capabilities of QGIS, researchers and environmental analysts can harness multispectral imagery, including C band data, to gain deeper insights into Earth's dynamic systems, facilitating informed decision-making and sustainable environmental management.
 
+# Into the Avionics Subsystem
 
----
-Into the Avionics Subsystem
----
 ![0 - uav](https://github.com/geexpro/Ingenuity-SIH-1422/assets/88074810/a00a15c6-1007-48fd-8b84-3d2f430f7256)
 
 
-**Sensor Systems Evaluation for Avalanche Detection**
+## Sensor Systems Evaluation for Avalanche Detection
 
 The assessment of sensor systems for avalanche detection revealed varying degrees of capability. Of paramount importance in avalanche hazard evaluation is the ability to detect layering within the snowpack. Ground Penetrating Radar (GPR) proves instrumental in this regard. However, the layers within the snowpack can differ significantly due to factors such as surface frost and snow crystal composition. As a result, there is a need to correlate the snow layers identified by GPR with the hardness scales traditionally employed by avalanche professionals during snow pit assessments. This correlation effort is crucial to showcase that GPR can consistently and successfully locate layers of interest.
 
-**Aerial Surveillance for Avalanche Monitoring**
+## Aerial Surveillance for Avalanche Monitoring
 
 In collaboration with the Norwegian Public Roads Administration (NPRA), we've harnessed a fleet of aircraft to enhance our avalanche monitoring capabilities. These aircraft are classified into quadrotors, multirotors, helicopters, and fixed-wing planes. Fixed-wing aircraft excel in winter conditions and can cover vast distances and altitudes necessary for avalanche feature observation. However, they lack the stability of multirotors, which can hover in place. Fixed-wing planes also require more complex takeoffs and landings, often involving launching catapults or parachute systems. Multirotors, on the other hand, offer stability and versatility, making them ideal for transporting sensors to specific locations.
 
-**Airborne Sensor Technologies**
+## Airborne Sensor Technologies
 
 Literature review has confirmed the potential of airborne sensor technology for measuring snow volumes, intensity, and detecting vulnerable layers beneath the snow. LIDAR (Light Detection and Ranging) is a notable technology that employs pulsed laser light to measure distances to the Earth's surface. While LIDAR systems designed for Unmanned Aerial Systems (UAS) are commercially available, their usage for snow surface and avalanche hazard assessment remains limited. LIDAR holds the promise of mapping the snowpack surface and identifying avalanche indicators such as cracks.
 
 Photogrammetry, also known as Structure from Motion (SfM), can create 3D images from multiple 2D photographs, providing valuable insights for avalanche monitoring.
 
-**Ground Penetrating Radar (GPR)**
+### Ground Penetrating Radar (GPR)
 
 Ground Penetrating Radar (GPR) utilizes electromagnetic radiation pulses to penetrate the ground and capture subsurface images. Traditionally mounted on carts or sleds, GPR has recently been adapted for use on manned aircraft. This innovation has found applications in glaciology and avalanche victim search operations, enhancing our ability to locate and rescue avalanche victims.
 
-**Aircraft Payload-Range Performance Evaluation**
+### Aircraft Payload-Range Performance Evaluation
 
 To optimize aircraft performance, we perform comprehensive payload-range evaluations. This analysis considers various factors, including aircraft operational weights and their impact on payload-range performance. Specifically, we focus on Maximum Take-off Weights (MTOW) and their components to determine payload capacity at different levels and range capability with specific payloads.
 
@@ -160,13 +229,5 @@ Max Payload = MZFW – OEW (Operational Empty Weight)
 This calculation helps us efficiently utilize aircraft payload capacity for avalanche response missions.
 
 
-
-
 These technologies and evaluations collectively contribute to our mission of enhancing avalanche detection, response, and victim rescue, reinforcing our commitment to safety and excellence in avalanche management.
 
-# Techstack
-
-- Python
-- JavaScript
-- Earth Engine
-- Mission Planner

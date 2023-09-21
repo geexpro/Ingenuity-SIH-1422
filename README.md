@@ -53,17 +53,12 @@ These two phases are integral components of our mission to enhance safety and sa
 
 Your provided text is a valuable addition to the project description. It provides more technical details about the specific neural network architecture, ResUNet, and how it is applied to the context of avalanche detection. Here's a revised and expanded description that incorporates this information:
 
+
 ---
-
-**Enhancing Avalanche Victim Identification: Leveraging AI/ML Technologies for Efficient Detection in Harsh Terrain**
-
-**Description:**
+The AI approach in Predicting Avalanches and Rescue of buried victims
+---
 
 In our relentless pursuit of improving avalanche victim identification, we've employed the cutting-edge ResUNet neural network model. This sophisticated AI/ML technology is specifically tailored to process and analyze imagery and data pertinent to avalanche situations. By doing so, we aim to significantly enhance our ability to detect avalanches and identify individuals who may be trapped in these life-threatening scenarios.
-
----
-he AI approach in Predicting Avalanches and Rescue of buried victims
----
 
 **ResUNet: Transforming Avalanche Detection**
 
@@ -77,6 +72,8 @@ ResUNet represents a crucial component of our innovation. It's not just a neural
 
 In the unforgiving terrain where every second counts, our integration of ResUNet into avalanche victim identification is poised to be a game-changer. We're committed to pushing the boundaries of technology to make the mountains safer and to improve the chances of survival for those in peril.
 
+![hp](https://github.com/geexpro/Ingenuity-SIH-1422/assets/88074810/c40fb655-7dd1-4ffc-8e52-3925c19e2e5e)
+![layer](https://github.com/geexpro/Ingenuity-SIH-1422/assets/88074810/e42355ce-8113-4acd-9ecb-70a8b78531e4)
 
 
 ---
@@ -95,6 +92,15 @@ Once activated, our VTOL drones take flight automatically and navigate to the de
 The location data of these casualties is then transmitted back to our Ground Control Software (GCS), a vital component of our operation. Our GCS serves as the central hub for coordinating response efforts. It allows us to dispatch relief teams promptly to assist the casualties. Communication and remote control are facilitated through the MAVLINK protocol, ensuring seamless and efficient operations.
 
 This integrated remote sensing system is a game-changer, dramatically reducing the time needed for search and rescue teams to locate individuals affected by avalanches. Ultimately, it significantly enhances the chances of survival for those in distress, reinforcing our commitment to avalanche safety and response excellence.
+
+![3](https://github.com/geexpro/Ingenuity-SIH-1422/assets/88074810/cd6141ce-c206-4d3c-98dd-bd6f9420060f)
+
+![4](https://github.com/geexpro/Ingenuity-SIH-1422/assets/88074810/97fae90a-12f8-40c9-a7bf-07340c28601a)
+
+![5](https://github.com/geexpro/Ingenuity-SIH-1422/assets/88074810/9adbbb46-f3cb-42be-808d-efed6ad89a88)
+
+![6](https://github.com/geexpro/Ingenuity-SIH-1422/assets/88074810/a75d756c-87a9-4006-afd7-4afeb937bbe2)
+
 
 ---
 
